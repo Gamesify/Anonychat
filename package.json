@@ -1,0 +1,17 @@
+{
+  "name": "anonychat",
+  "version": "1.0.2",
+  "description": "Anonim bir sohbet uygulaması",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "Mesify",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
+    "socket.io": "^4.6.1"
+  }
+}

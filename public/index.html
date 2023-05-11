@@ -1,0 +1,32 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anonychat - Anonym Chatting</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.6.1/socket.io.js" integrity="sha512-xbQU0+iHqhVt7VIXi6vBJKPh3IQBF5B84sSHdjKiSccyX/1ZI7Vnkt2/8y8uruj63/DVmCxfUNohPNruthTEQA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="buttons">
+        <button class="lang-tr"><a href="./index-tr.html"><i class="fa-solid fa-language" style="color: #ffffff;"></i> Türkçe Dilinde Devam Et</a></button>
+    </div>
+    <div id="chat-wrap">
+        <h2>Anonychat BETA</h2>
+        <div id="chat-window">
+            <div id="output"></div>
+            <div id="feedback"></div>
+        </div>
+        <input type="text" id="sender" placeholder="Anonym Name">
+        <input type="text" id="message" placeholder="Message">
+        <button id="submitBtn">Send Message</button>
+    </div>
+    <button class="github"><a href="https://github.com/Gamesify/Anonychat"><i class="fa-brands fa-github" style="color: #ffffff;"></i> GitHub Source Code</a></button>
+    <button>Mesify © 2023 - All Rights Reversed.</button>
+
+    <!-- CHAT SCRIPT by Mesify -->
+    <script src="chat.js" charset="UTF-8"></script>
+    <!-- FONT AWESOME 5 -->
+    <script src="https://kit.fontawesome.com/92e19494cc.js" crossorigin="anonymous"></script>
+</body>
+</html>
